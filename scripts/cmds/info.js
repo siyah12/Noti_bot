@@ -4,7 +4,7 @@ const axios = require('axios');
 module.exports = {
   config: {
     name: "info",
-    aliases: ["inf", "in4"],
+    aliases: ["inf", "information"],
     version: "2.0",
     author: " Eren",
     countDown: 5,
@@ -33,9 +33,9 @@ module.exports = {
 
   sendInfo: async function (message) {
     const botName = "🕸️ 𝐒𝐩𝐢𝐝𝐞𝐘🕷️";
-    const authorName = "Ma-Hi";
-    const authorFB = "fb.com/mahi68x";
-    const authorInsta = "raadx102";
+    const authorName = "SIYUU";
+    const authorFB = "https://m.me/shahariya.ahmmed.siyam.01";
+    const authorInsta = "Creato_broh_0.1";
     const status = "𝗦𝗶𝗻𝗴𝗹𝗲";
 
     const now = moment().tz('Asia/Dhaka');
